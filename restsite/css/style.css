@@ -1,0 +1,148 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen',sans-serif;
+}
+.collapsed{
+	visibility: hidden;
+}
+@media(max-width: 700px){
+	.vis{
+		display: block;
+		visibility: hidden;
+	}
+	.collapsed{
+		display: block;
+		visibility: visible;
+		float: left;
+
+	}
+	#mt1{
+		display: block;
+		visibility: hidden;
+	}
+	
+
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+
+}
+
+
+#logo-img{
+	background: url("images/logo.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-stretch: 0.5em;
+	margin-top: 15px;
+}
+@media(max-width: 700px){
+	.navbar-brand h1{
+	font-size: 2em;
+	}
+	.navbar-brand p{
+		font-size: 0.5em;
+	}
+	header{
+		margin: -90px;
+	}
+
+}
+#but > div{
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+#but{
+	background-color:#557c3e;
+}
+
+#nav-list {
+  	margin-top: 10px;
+	align-content: : center;
+
+}
+
+#nav-list a {
+	
+	
+	margin-bottom: 10px; 
+  	color: #951C49;
+  	text-align: center;
+  	font-size: 1.5em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  text-decoration: none;
+}
+
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+#mt1{
+	margin-top: 10px;
+	float: right;
+
+	
+}
+#mt1 div{
+	margin-right: 5px;
+	font-size: 1.5em;
+	background-color: #951C49;
+	padding: 10px;
+	float: right;
+
+}
+#mt1 a{
+	font-family: 'Lora', serif;
+	color: orange;
+}
+#mt1 a:hover {
+  background: green;
+  text-decoration: none;
+}
+
+button.navbar-toggler{
+  border: 1px solid #61122f;
+}
+button.navbar-toggler {
+  clear: both;
+  
+}
